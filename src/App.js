@@ -1,10 +1,10 @@
-import {Container,Button} from '@chakra-ui/react'
+import { Container} from "@chakra-ui/react";
+import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
     <Container>
-      Hello in my portofolio.
-      <Button>It is a chkra button</Button>I
+      <Navbar />
     </Container>
   );
 }
