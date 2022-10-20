@@ -1,9 +1,10 @@
+import {Container} from '@chakra-ui/react'
 
 function App() {
   return (
-    <div>
+    <Container>
       Hello in my portofolio.
-    </div>
+    </Container>
   );
 }
 
