@@ -1,11 +1,11 @@
-import { Container} from "@chakra-ui/react";
+import { Box} from "@chakra-ui/react";
 import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
-    <Container>
+    <Box>
       <Navbar />
-    </Container>
+    </Box>
   );
 }
 
