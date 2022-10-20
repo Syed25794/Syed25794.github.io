@@ -1,4 +1,4 @@
-import {Navbar,Container,Link,Box} from '@chakra-ui/react'
+import {Container,Link,Box} from '@chakra-ui/react'
 
 export const Navbar=()=>{
     return (
@@ -6,14 +6,14 @@ export const Navbar=()=>{
         <Box>
         <Link href=''>Sayyad Gul Mohammad</Link>
         </Box>
-        <Navbar>
+        <Box>
         <Link href='#home'>Home</Link>
         <Link href='#about'>About</Link>
         <Link href='#skills'>Skills</Link>
         <Link href='#projects'>Projects</Link>
         <Link href='#resume'>Resume</Link>
         <Link href='#contact'>Contact</Link>
-        </Navbar>
+        </Box>
         </Container>
     )
 
