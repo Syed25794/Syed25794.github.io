@@ -1,16 +1,15 @@
 import { Box } from "@chakra-ui/react";
-import {
-  Navbar,
-  About,
-  Contact,
-  Projects,
-  Resume,
-  Skills,
-} from "./Components/Navbar";
+import {Navbar} from "./Components/Navbar";
+import {About} from "./Components/About";
+import {Contact} from "./Components/Contact";
+import {Projects} from "./Components/Projects";
+import {Resume} from "./Components/Resume";
+import {Skills} from "./Components/Skills";
+
 
 function App() {
   return (
-    <Box>
+    <Box bg='gray.900' color='gray.500' id="home">
       <Navbar />
       <About />
       <Skills />
