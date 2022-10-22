@@ -1,0 +1,36 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "title":"Geek Buying",
+            "name":"geek-buying",
+            "tech":["HTML","CSS","JavaScript","React","Redux","React-router-dom"],
+            "css-library":"chakra-ui",
+            "description":"Geekbuying was founded in 2012 with the mission of creating a platform that truly puts the customer first. Since our inception, we have become one of the leading E-commerce platforms selling a wide range of consumer electronic gadgets.",
+            "img":"geek-buying.gif",
+            "github":"https://github.com/abhinavBisht94/geekbuying-clone",
+            "live":"https://geekbuying-clone.netlify.app"
+        },
+        {
+            "id":2,
+            "title":"OLX",
+            "name":"olx",
+            "tech":["HTML","CSS","JavaScript","React","Redux","React-router-dom"],
+            "css-library":"chakra-ui",
+            "description":"Olx is the world’s fastest-growing networks of trading platforms, operating in 30+ countries around the world. You can sell and buys different things ranging from automibiles to electronics gadgets.",
+            "img":"olx.gif",
+            "github":"https://github.com/Tanmoy-M17/enormous-library-3081",
+            "live":"https://enormous-library-3081-olx.vercel.app/"
+        },
+        {
+            "id":3,
+            "title":"Weather App",
+            "name":"weather-app",
+            "tech":["HTML","CSS","JavaScript"],
+            "description":"It is a app to get the weather data of whole week of any city in the world. .It is showing the data of every day of week with minimum and maximum temperature.",
+            "github":"https://github.com/Syed25794/WeatherApp",
+            "live":"https://weather-app-seven-days.netlify.app/",
+            "img":"weather-app.gif"
+        }
+    ]
+}

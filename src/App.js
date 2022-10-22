@@ -10,7 +10,7 @@ import {Skills} from "./Components/Skills";
 function App() {
   return (
     <Box bg='gray.900' color='gray.500' id="home">
-      <Navbar />
+      <Navbar position='fixed' />
       <About />
       <Skills />
       <Projects />
