@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
 
 export const Projects = () => {
   return (
-    <Box id="projects" >
+    <Box id="projects" marginTop={8} >
     <Box alignContent='center'>
       <Heading>Some of my best contribution</Heading>
       <Text>

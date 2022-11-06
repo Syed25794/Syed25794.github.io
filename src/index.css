@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  background-color: rgb(17,24,39);
+  padding:0;
+  background-color: #0f52ba;
   color:rgb(124,163,163);
   box-sizing: border-box;
+  scroll-behavior: smooth;
    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight:100;
 }
+/* rgb(17,24,39) */
 /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif */
