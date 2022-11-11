@@ -9,7 +9,7 @@ export const About = () => {
         <Heading color='white' fontSize={['2xl','3xl','4xl']}>I'm Sayyad Gul Mohammad</Heading> 
         <Heading color='white' fontSize={['2xl','3xl','4xl']} >Full Stack Web Developer</Heading>
         <Text  mt={4}>I'm  full-stack web developer with 1000+ hours of hands-on experience in Data structure and algorithm,
-        JavaScript, HTML, CSS, React, and MongoDB to build userresponsive websites with team collaboration. Problem solving mindset with the ability to learn and collaborate
+        JavaScript, HTML, CSS, React, and MongoDB to build user-responsive websites with team collaboration. Problem solving mindset with the ability to learn and collaborate
         with a team.</Text>
         <Flex direction={['column','row','row']}  mt={4} alignItems='center'>
           <Link as='a' maxW='150px'  bg='purple.600' color='gray.400' _hover={{color:"white"}} mr={['0px','24px','24px']} px={6} py={2} fontSize='20px' border='1px solid white' borderRadius={6}  href='https://www.linkedin.com/in/sayyad-gul-mohammad/' isExternal>Linkedin<ExternalLinkIcon mx='2x' /></Link>
