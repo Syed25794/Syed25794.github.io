@@ -58,7 +58,7 @@ const SkillsCard=({name})=>{
 
 export const Skills=()=>{
     return (
-        <Box boxShadow ='rgb(127,127,127) 0px 5px 15px' mx='50px' my='40px' p='20px 30px 20px 30px' borderRadius='8px'>
+        <Box boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='40px' py={[5,10,22]} p={[5,10,22]} borderRadius='8px'>
             <Box color='white' textAlign='center' mb={6}>
                 <Heading>Skills & Technologies</Heading>
                 <Icon w="50px" h="50px" mt={3}  as={GrTechnology} />
