@@ -1,5 +1,6 @@
 import { Box, Heading, Image, Link, Text, Flex } from "@chakra-ui/react";
 import { ExternalLinkIcon } from '@chakra-ui/icons';
+// import aos from 'aos';
 
 export const About = () => {
   return (

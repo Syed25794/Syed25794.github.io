@@ -1,4 +1,4 @@
-import { Text, Heading, Box, Link, Image, Flex, Button, Icon } from "@chakra-ui/react";
+import { Text, Heading, Box, Link, Image, Flex,Icon } from "@chakra-ui/react";
 import { GrProjects } from "react-icons/gr";
 import data from "../db.json";
 import {FaHtml5 ,FaCss3Alt,FaReact} from 'react-icons/fa';
