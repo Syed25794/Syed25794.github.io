@@ -38,7 +38,7 @@ import { Text, Box, Flex, Stack, Link} from "@chakra-ui/react";
 
 const MenuItem = ({ children, location,toggle }) => {
   return (
-    <Link href={`#${location}`}
+    <Link href={`#${location}`} scrollBehavior="smooth"
       _hover={{ transitionDuration: "700ms", color: "pink.300" }} onClick={toggle}>
       <Text fontSize="xl">{children}</Text>
   </Link>

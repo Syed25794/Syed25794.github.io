@@ -3,7 +3,7 @@ import {Icon} from '@chakra-ui/icons'
 import data from './../db.json';
 import {FaHtml5 ,FaCss3Alt,FaReact,FaGitAlt,FaGithub,FaPython,FaJava,FaNodeJs} from 'react-icons/fa';
 import { TbBrandJavascript} from 'react-icons/tb';
-import { SiMongodb ,SiPostman , SiExpress} from 'react-icons/si';
+import { SiMongodb ,SiPostman , SiExpress, SiRedux} from 'react-icons/si';
 import {GrTechnology} from 'react-icons/gr';
 
 const SkillsCard=({name})=>{
@@ -20,6 +20,9 @@ const SkillsCard=({name})=>{
             break;
         case "React":
             icons=FaReact;
+            break;
+        case "Redux":
+            icons=SiRedux;
             break;
         case "MongoDB":
             icons=SiMongodb;
@@ -46,8 +49,8 @@ const SkillsCard=({name})=>{
             icons=SiPostman;
     }
     return (
-        <Box textAlign="center" w='200px' h='200px' bg='#1f2937' color='white'  border='1px solid gray' borderRadius={10} >
-            <Icon mt={4} w="88px" h="88px" as={icons} />
+        <Box _hover={{}} textAlign="center" w='200px' h={['175px','200px','200px']} bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
+            <Icon  mt={4} w="88px" h="88px" as={icons} />
             <Text mt={4} fontSize={22}>{name}</Text>
         </Box>
     )
