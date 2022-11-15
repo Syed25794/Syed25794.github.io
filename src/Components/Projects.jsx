@@ -36,7 +36,7 @@ const TechStackCard=({name})=>{
 
 const ProjectCard = (props) => {
   return (
-    <Flex direction={['column','column','column']} border='1px solid red' boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px" w={['230px','350px','450px']} h={['650px','600px','570px']} borderRadius={18} textAlign='center'>
+    <Flex direction={['column','column','column']} border='1px solid red' boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px" w={['230px','350px','450px']} h={['700px','600px','570px']} borderRadius={18} textAlign='center'>
       <Box m={4}>
         <Image borderRadius={18} src={props.img} name="photo" />
       </Box>
