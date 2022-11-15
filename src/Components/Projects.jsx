@@ -36,8 +36,8 @@ const TechStackCard=({name})=>{
 
 const ProjectCard = (props) => {
   return (
-    <Flex direction={['column','column','column']} border='1px solid red' boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px" w={['230px','350px','450px']} h={['700px','600px','570px']} borderRadius={18} textAlign='center'>
-      <Box m={4}>
+    <Flex direction={['column','column','column']}  boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px" w={['230px','350px','450px']} h={['700px','600px','570px']} borderRadius={18} textAlign='center'>
+      <Box m={[1,2,4]}>
         <Image borderRadius={18} src={props.img} name="photo" />
       </Box>
       <Heading m={1} size='xl' color='white'>{props.title}</Heading>
@@ -48,10 +48,10 @@ const ProjectCard = (props) => {
             return <TechStackCard name={elem} />}
             )}
         </Flex>
-      <Box marginTop={3} justifyItems="center">
-        <Button my={2} mr={4} color='gray' px={7} fontSize='18px'><Link href={props.github}>Repo</Link></Button>
-        <Button color='white' my={2}  px={7} fontSize='18px'><Link href={props.live}>Live</Link></Button>
-      </Box>
+      <Flex marginTop={3} justifyContent='center' gap={4} >
+        <Link href={props.github}><Box bg='#33b249' color='white' w='80px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Repo</Box></Link>
+        <Link href={props.live}><Box bg='#33b249' color='white' w='80px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Live</Box></Link>
+      </Flex>
     </Flex>
   );
 };
