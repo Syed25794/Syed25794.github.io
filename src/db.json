@@ -31,6 +31,17 @@
             "github":"https://github.com/Syed25794/WeatherApp",
             "live":"https://weather-app-seven-days.netlify.app/",
             "img":"weather-app.gif"
+        },
+        {
+            "id":4,
+            "title":"Freshly",
+            "name":"Freshly",
+            "tech":["HTML","CSS","JavaScript","React","Redux","React-router-dom"],
+            "css-library":"chakra-ui",
+            "description":"Freshly is a New York-based prepared meal delivery company that delivers throughout the United States. Founded by Michael Wystrach and Carter Comstock.",
+            "img":"freshly.gif",
+            "github":"https://github.com/SachinKumar0381/Fresly-clone",
+            "live":"https://freshly-cloned.netlify.app/"
         }
     ],
     "skills":[
