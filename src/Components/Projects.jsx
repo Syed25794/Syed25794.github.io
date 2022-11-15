@@ -1,4 +1,5 @@
-import { Text, Heading, Box, Link, Image, Flex, Button } from "@chakra-ui/react";
+import { Text, Heading, Box, Link, Image, Flex, Button, Icon } from "@chakra-ui/react";
+import { GrProjects } from "react-icons/gr";
 import data from "../db.json";
 
 const ProjectCard = (props) => {
@@ -21,13 +22,12 @@ const ProjectCard = (props) => {
 
 export const Projects = () => {
   return (
-    <Box id="projects" marginTop={8} >
+    <Box id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx='50px' my='90px' p='20px 30px 20px 30px' borderRadius='8px'>
+      <Box color='white' textAlign='center' mb={6}>
+        <Heading>Some of my best projects</Heading>
+        <Icon w="50px" h="50px" mt={3}  as={GrProjects} />
+      </Box>
     <Box alignContent='center'>
-      <Heading>Some of my best contribution</Heading>
-      <Text>
-        In Masai School, every unit first four week we learn and in the last
-        unit we make team and cloned website with the learning we got.
-      </Text>
       </Box>
       <Box>
       <Flex wrap='wrap' gap={6}  p={['25px','50px','150px']}>

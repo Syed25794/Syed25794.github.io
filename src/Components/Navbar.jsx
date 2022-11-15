@@ -33,17 +33,15 @@
 
 import { CloseIcon, HamburgerIcon, Icon } from "@chakra-ui/icons";
 import { useState } from "react";
-import { Text, Box, Flex, Stack,Link } from "@chakra-ui/react";
+import { Text, Box, Flex, Stack, Link} from "@chakra-ui/react";
 
 
 const MenuItem = ({ children, location,toggle }) => {
   return (
-    <Link to="test1" spy={true} smooth={true} offset={50} duration={500}
-      _hover={{ transitionDuration: "700ms", color: "pink.300" }} onClick={toggle}
-      href={`#${location}`}
-    >
+    <Link href={`#${location}`}
+      _hover={{ transitionDuration: "700ms", color: "pink.300" }} onClick={toggle}>
       <Text fontSize="xl">{children}</Text>
-    </Link>
+  </Link>
   );
 };
 
@@ -57,7 +55,7 @@ const Logo = () => {
 
 const ToggleIcon = ({ toggle, isOpen }) => {
   return (
-    <Box onClick={toggle} display={["block", "block", "none"]}>
+    <Box onClick={toggle} display={["block", "block","none", "none"]}>
       {isOpen ? <Icon as={CloseIcon} w={5} h={5} /> : <Icon as={HamburgerIcon} w={8} h={8}  />}
     </Box>
   );
@@ -71,9 +69,8 @@ export const Navbar = () => {
 
   return (
     <Flex
-      opacity="0.9"
       h={[isOpen ? "350px":"40px","40px","90px","80px"]}
-      bg={["gray.800", "gray.800", "gray.700"]}
+      bg="#1f2937"
       as="nav"
       align="center"
       justifyContent="space-between"

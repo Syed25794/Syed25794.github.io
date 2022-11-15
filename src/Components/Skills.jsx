@@ -1,9 +1,10 @@
-import { Box,Text,Flex } from "@chakra-ui/react";
+import { Box,Text,Flex, Heading } from "@chakra-ui/react";
 import {Icon} from '@chakra-ui/icons'
 import data from './../db.json';
 import {FaHtml5 ,FaCss3Alt,FaReact,FaGitAlt,FaGithub,FaPython,FaJava,FaNodeJs} from 'react-icons/fa';
 import { TbBrandJavascript} from 'react-icons/tb';
 import { SiMongodb ,SiPostman , SiExpress} from 'react-icons/si';
+import {GrTechnology} from 'react-icons/gr';
 
 const SkillsCard=({name})=>{
     let icons=null;
@@ -45,19 +46,25 @@ const SkillsCard=({name})=>{
             icons=SiPostman;
     }
     return (
-        <Box textAlign="center" w='200px' h='250px'  border='1px solid red' borderRadius={10} >
-            <Icon w="78px" h="78px" as={icons} />
-            <Text>{name}</Text>
+        <Box textAlign="center" w='200px' h='200px' bg='#1f2937' color='white'  border='1px solid gray' borderRadius={10} >
+            <Icon mt={4} w="88px" h="88px" as={icons} />
+            <Text mt={4} fontSize={22}>{name}</Text>
         </Box>
     )
 }
 
 export const Skills=()=>{
     return (
-        <Flex px={8} justifyContent="center" alignItems="center" wrap='wrap' gap={5} id='skills'>
-            {data.skills.map((skill)=>{
-                return <SkillsCard key={skill.name} {...skill} />
-            })}
-        </Flex>
+        <Box boxShadow ='rgb(127,127,127) 0px 5px 15px' mx='50px' my='40px' p='20px 30px 20px 30px' borderRadius='8px'>
+            <Box color='white' textAlign='center' mb={6}>
+                <Heading>Skills & Technologies</Heading>
+                <Icon w="50px" h="50px" mt={3}  as={GrTechnology} />
+            </Box>
+            <Flex px={8} justifyContent="center" alignItems="center" wrap='wrap' gap={5} id='skills'>
+                {data.skills.map((skill)=>{
+                    return <SkillsCard key={skill.name} {...skill} />
+                })}
+            </Flex>
+        </Box>
     )
 };
