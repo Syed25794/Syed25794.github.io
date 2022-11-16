@@ -4,7 +4,7 @@ import data from './../db.json';
 import {FaHtml5 ,FaCss3Alt,FaReact,FaGitAlt,FaGithub,FaPython,FaJava,FaNodeJs} from 'react-icons/fa';
 import { TbBrandJavascript} from 'react-icons/tb';
 import { SiMongodb ,SiPostman , SiExpress, SiRedux} from 'react-icons/si';
-import {GrTechnology} from 'react-icons/gr';
+import {MdOutlineSettingsEthernet} from 'react-icons/md';
 
 const SkillsCard=({name})=>{
     let icons=null;
@@ -61,7 +61,7 @@ export const Skills=()=>{
         <Box fontFamily='inherit' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='40px' py={[5,10,22]} p={[5,10,22]} borderRadius='8px'>
             <Box color='white' textAlign='center' mb={6} >
                 <Heading fontWeight='500'  fontSize={['2xl','3xl','3xl']}>Skills & Technologies</Heading>
-                <Icon w="50px" h="50px" mt={3}  as={GrTechnology} />
+                <Icon w="50px" h="50px" mt={3}  as={MdOutlineSettingsEthernet} />
             </Box>
             <Flex px={8} justifyContent="center" alignItems="center" wrap='wrap' gap={5} id='skills'>
                 {data.skills.map((skill)=>{

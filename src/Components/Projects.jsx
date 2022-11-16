@@ -1,9 +1,8 @@
 import { Text, Heading, Box, Link, Image, Flex,Icon } from "@chakra-ui/react";
-import { GrProjects } from "react-icons/gr";
 import data from "../db.json";
 import {FaHtml5 ,FaCss3Alt,FaReact} from 'react-icons/fa';
 import { TbBrandJavascript} from 'react-icons/tb';
-import { SiRedux } from "react-icons/si";
+import { SiRedux , SiCodeproject } from "react-icons/si";
 
 
 const TechStackCard=({name})=>{
@@ -40,9 +39,9 @@ const ProjectCard = (props) => {
       <Box m={[1,2,4]}>
         <Image borderRadius={18} src={props.img} name="photo" />
       </Box>
-      <Heading m={1} size='xl' color='white'>{props.title}</Heading>
+      <Heading m={1} color='white' fontWeight='400'  fontSize={['md','lg','2xl']} >{props.title}</Heading>
       <Text>{props.description}</Text>
-      <Heading size='md' my={2} color='white'>Tech-Stack</Heading>
+      <Heading size='md' my={2} color='white' fontWeight='400'  fontSize={['md','lg','2xl']}>Tech-Stack</Heading>
         <Flex  gap={2} wrap='wrap' justifyContent="center">
           {props['tech'].map((elem)=>{
             return <TechStackCard name={elem} />}
@@ -58,10 +57,10 @@ const ProjectCard = (props) => {
 
 export const Projects = () => {
   return (
-    <Box id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px'>
+    <Box fontFamily='inherit' id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px'>
       <Box color='white' textAlign='center' mb={6}>
-        <Heading>Some of my best projects</Heading>
-        <Icon w="50px" h="50px" mt={3}  as={GrProjects} />
+        <Heading fontWeight='500'  fontSize={['2xl','3xl','3xl']} >Some of my best projects</Heading>
+        <Icon w="50px" h="50px" mt={3}  as={SiCodeproject} />
       </Box>
     <Box alignContent='center'>
       </Box>
