@@ -49,8 +49,8 @@ const ProjectCard = (props) => {
             )}
         </Flex>
       <Flex marginTop={3} justifyContent='center' gap={4} >
-        <Link href={props.github}><Box bg='#33b249' color='white' w='80px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Repo</Box></Link>
-        <Link href={props.live}><Box bg='#33b249' color='white' w='80px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Live</Box></Link>
+        <Link href={props.github}><Box bg='#10af7a' _hover={{background:"#34d399"}} color='white' maxW='90px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Repo</Box></Link>
+        <Link href={props.live}><Box bg='#10af7a' _hover={{background:"#34d399"}} color='white' maxW='90px' p='8px 20px 8px 20px' borderRadius={6} fontSize='18px'>Live</Box></Link>
       </Flex>
     </Flex>
   );

@@ -18,7 +18,7 @@ export const Contact=()=>{
                     <Input w={["200px","225px","250px"]} />
                 </Box>
                 <Box marginLeft={['35px','45px','65px']}>
-                    <Button>Connect With Me</Button>
+                    <Button border='1px solid #34d399' bg='#10af7a' _hover={{background:"#34d399"}} color='white'>Connect With Me</Button>
                 </Box>
             </Box>
         </Flex>

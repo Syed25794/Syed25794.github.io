@@ -82,6 +82,8 @@ export const Navbar = () => {
       wrap="wrap"
       position="fixed"
       color={["white", "white", "primary.700"]}
+      fontFamily='inherit'
+      fontWeight='400'
     >
         <Logo />
         <ToggleIcon toggle={Toggle} isOpen={isOpen} />

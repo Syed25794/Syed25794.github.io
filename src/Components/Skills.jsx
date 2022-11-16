@@ -50,17 +50,17 @@ const SkillsCard=({name})=>{
     }
     return (
         <Box _hover={{}} textAlign="center" w='200px' h={['175px','200px','200px']} bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
-            <Icon  mt={4} w="88px" h="88px" as={icons} />
-            <Text mt={4} fontSize={22}>{name}</Text>
+            <Icon  mt={4} w="68px" h="68px" as={icons} />
+            <Text mt={4} fontFamily='inherit' fontWeight='400' fontSize={[16,18,20]}>{name}</Text>
         </Box>
     )
 }
 
 export const Skills=()=>{
     return (
-        <Box boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='40px' py={[5,10,22]} p={[5,10,22]} borderRadius='8px'>
-            <Box color='white' textAlign='center' mb={6}>
-                <Heading>Skills & Technologies</Heading>
+        <Box fontFamily='inherit' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='40px' py={[5,10,22]} p={[5,10,22]} borderRadius='8px'>
+            <Box color='white' textAlign='center' mb={6} >
+                <Heading fontWeight='500'  fontSize={['2xl','3xl','3xl']}>Skills & Technologies</Heading>
                 <Icon w="50px" h="50px" mt={3}  as={GrTechnology} />
             </Box>
             <Flex px={8} justifyContent="center" alignItems="center" wrap='wrap' gap={5} id='skills'>
