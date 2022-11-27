@@ -6,7 +6,7 @@ export const Contact=()=>{
         <Flex direction={['column','row','row']} id='contact' padding={10} justifyContent='center'>
             <Box id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px' justifyContent='center'>
             <Box color='white' textAlign='center' mb={6}>
-              <Heading fontSize={['2xl','3xl','3xl']} fontWeight='500' >My GitHub Stats</Heading>
+              <Heading fontSize={['2xl','3xl','3xl']} fontWeight='500' >Connect With Me</Heading>
               <Icon w="50px" h="50px" mt={3}  as={VscDebugDisconnect} />
             </Box>
                 <Box p={5}>

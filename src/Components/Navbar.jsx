@@ -33,13 +33,13 @@
 
 import { CloseIcon, HamburgerIcon, Icon } from "@chakra-ui/icons";
 import { useState } from "react";
-import { Text, Box, Flex, Stack, Link} from "@chakra-ui/react";
+import { Text, Box, Flex, Stack,Link} from "@chakra-ui/react";
 
 
 const MenuItem = ({ children, location,toggle }) => {
+  console.log(location,typeof location);
   return (
-    <Link href={`#${location}`} scrollBehavior="smooth"
-      _hover={{ transitionDuration: "700ms", color: "pink.300" }} onClick={toggle}>
+    <Link href={`#${location}`} _hover={{ transitionDuration: "700ms", color: "#34d399" }} onClick={toggle}>
       <Text fontSize="xl">{children}</Text>
   </Link>
   );
@@ -47,7 +47,7 @@ const MenuItem = ({ children, location,toggle }) => {
 
 const Logo = () => {
   return (
-    <Link _hover={{ textDecoration: "none" }} href="home">
+    <Link _hover={{ textDecoration: "none" }} href="home" >
       <Text>Sayyad Gul Mohammad</Text>
     </Link>
   );

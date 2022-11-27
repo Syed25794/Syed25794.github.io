@@ -9,13 +9,13 @@ export const About = () => {
         <Heading color='white' fontSize={['2xl','3xl','3xl']} fontWeight='500' mt={4}>Hello ,</Heading>
         <Heading color='white' fontSize={['2xl','3xl','3xl']} fontWeight='500'>I'm Sayyad Gul Mohammad</Heading> 
         <Heading color='white' fontSize={['2xl','3xl','3xl']} fontWeight='500' >Full Stack Web Developer</Heading>
-        <Text  mt={4}>I'm  full-stack web developer with 1000+ hours of hands-on experience in Data structure and algorithm,
+        <Text  mt={4}>Full-stack web developer with 1000+ hours of hands-on experience in Data structure and algorithm,
         JavaScript, HTML, CSS, React, and MongoDB to build user-responsive websites with team collaboration. Problem solving mindset with the ability to learn and collaborate
         with a team.</Text>
         <Flex direction={['column','row','row']}  mt={7} alignItems='center' wrap='wrap'>
-          <Link as='a'  maxW='170px'  bg='#10b981' color='white' _hover={{background:"#34d399"}} mt={['20px','20px','0px']}  mr={['0px','24px','24px']} px={7} py={2} fontSize='20px' border='1px solid #34d399' borderRadius={6}  href='https://www.linkedin.com/in/sayyad-gul-mohammad/' isExternal>Linkedin<ExternalLinkIcon mx='2x' /></Link>
-          <Link as='a'  maxW='170px' mr={['0px','24px','24px']} mt={['20px','20px','0px']} bg='#10b981' color='white' _hover={{background:"#34d399"}} px={7} py={2} fontSize='20px' border='1px solid #34d399' alignItems='center' borderRadius={6} href='https://github.com/Syed25794' isExternal>Github<ExternalLinkIcon mx='2px' /></Link>
-          <Link as='a'  maxW='170px' mt={['20px','20px','0px']}  bg='#10b981' color='white' _hover={{background:"#34d399"}} mr={['0px','24px','24px']} px={7} py={2} fontSize='20px' border='1px solid #34d399' borderRadius={6}  href='https://drive.google.com/file/d/1fa8CTWOXEmGO-y5mtrBLlIEezJKu243d/view?usp=share_link' isExternal>Resume<ExternalLinkIcon mx='2x' /></Link>
+          <Link as='a'  maxW='170px'  bg='#1f2937' color='white' _hover={{background:"#34d399"}} mt={['20px','20px','0px']}  mr={['0px','24px','24px']} px={7} py={2} fontSize='20px' border='1px solid #1f2937' borderRadius={6}  href='https://www.linkedin.com/in/sayyad-gul-mohammad/' isExternal>Linkedin<ExternalLinkIcon mx='2x' marginBottom={"5px"} /></Link>
+          <Link as='a'  maxW='170px' mr={['0px','24px','24px']} mt={['20px','20px','0px']} bg='#1f2937' color='white' _hover={{background:"#34d399"}} px={7} py={2} fontSize='20px' border='1px solid #1f2937' alignItems='center' borderRadius={6} href='https://github.com/Syed25794' isExternal>Github<ExternalLinkIcon mx='2px'  marginBottom={"5px"} /></Link>
+          <Link as='a'  maxW='170px' mt={['20px','20px','0px']}  bg='#1f2937' color='white' _hover={{background:"#34d399"}} mr={['0px','24px','24px']} px={7} py={2} fontSize='20px' border='1px solid #1f2937' borderRadius={6}  href='https://drive.google.com/file/d/1fa8CTWOXEmGO-y5mtrBLlIEezJKu243d/view?usp=share_link' isExternal>Resume<ExternalLinkIcon mx='2x'  marginBottom={"5px"} /></Link>
         </Flex>
       </Box>
       <Box   w='250px' paddingRight={3}>

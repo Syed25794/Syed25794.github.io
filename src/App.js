@@ -6,6 +6,7 @@ import {Projects} from "./Components/Projects";
 import {Resume} from "./Components/Resume";
 import {Skills} from "./Components/Skills";
 import Github from "./Components/Github";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Github />
       <Resume />
+      <Github />
       <Contact />
+      <Footer />
     </Box>
   );
 }

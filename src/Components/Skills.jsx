@@ -49,7 +49,7 @@ const SkillsCard=({name})=>{
             icons=SiPostman;
     }
     return (
-        <Box _hover={{}} textAlign="center" w='200px' h={['175px','200px','200px']} bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
+        <Box _hover={{bg:"#34d399",color:"white"}} textAlign="center" w='200px' h={['175px','200px','200px']} bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
             <Icon  mt={4} w="68px" h="68px" as={icons} />
             <Text mt={4} fontFamily='inherit' fontWeight='400' fontSize={[16,18,20]}>{name}</Text>
         </Box>

@@ -27,8 +27,8 @@ const TechStackCard=({name})=>{
           icons="";
   }
   return (
-      <Box mx={2} textAlign="center" w='60px' h='60px' bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
-          <Icon  mt={1} w="55px" h="55px" as={icons} />
+      <Box _hover={{bg:"#34d399",color:"color"}} mx={2} textAlign="center" w='60px' h='60px' bg='#1f2937' color='white'  border='1px solid white' borderRadius={10} >
+          <Icon  mt={1} w="50px" h="50px" as={icons} />
       </Box>
   )
 }
