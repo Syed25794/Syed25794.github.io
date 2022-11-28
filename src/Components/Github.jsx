@@ -11,19 +11,16 @@ const Github = () => {
             </Box>
             <Flex direction='column' gap={4} wrap='wrap' justifyContent='center' align='center' >
                 <Box width={['300px','600px','800px']}>
-                    <Image src='https://activity-graph.herokuapp.com/graph?username=Syed25794' alt='github activity' / >
+                    <Image bg='gray' src='https://activity-graph.herokuapp.com/graph?username=Syed25794&bg_color=0D1117' alt='github activity' / >
                 </Box>
-                <Flex direction={['column','row','row']} gap={4} wrap='wrap'>   
-                    <Image  src="https://github-readme-stats.vercel.app/api/top-langs?username=syed25794&show_icons=true&locale=en&layout=compact" alt="syed25794" />
-                    <Image  src="https://github-readme-stats.vercel.app/api?username=syed25794&show_icons=true&locale=en" alt="syed25794" />
-                </Flex>
                 <Flex direction={['column','row','row']} gap={4} wrap='wrap'> 
                     <Box><Image src="https://github-profile-trophy.vercel.app/?username=syed25794" alt="syed25794" /></Box>
-                    <Box><Link href="https://github.com/ryo-ma/github-profile-trophy"></Link></Box>
+                    <Box bg='gray'><Link href="https://github.com/ryo-ma/github-profile-trophy"></Link></Box>
                     <Box><Image src="https://github-readme-streak-stats.herokuapp.com/?user=syed25794&" alt="syed25794" />  </Box>
                 </Flex>
                 <Box>
                 <Link target="_blank" rel="noreferrer" id="cicin" href="https://github.com/syed25794" >
+                    <p textAlign='center' fontSize='40px' color='black' >Github Calender</p>
                     <Image  width="1200px" marginBottom='20px'  id="github-contributions" src="https://ghchart.rshah.org/syed25794" href="https://github.com/syed25794" alt="syed25794's Activity Graph" />
                 </Link>
                 <Link target="_blank" rel="noreferrer" id="cicin" href="https://github.com/syed25794">

@@ -7,12 +7,13 @@ import {Resume} from "./Components/Resume";
 import {Skills} from "./Components/Skills";
 import Github from "./Components/Github";
 import Footer from "./Components/Footer";
+import './App.css';
 
 
 function App() {
   return (
-    <Box bg='gray.900' color='gray.500' id="home">
-      <Navbar position='fixed' />
+    <Box id="home" className="container">
+      <Navbar />
       <About />
       <Skills />
       <Projects />

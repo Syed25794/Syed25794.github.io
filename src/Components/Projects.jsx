@@ -3,6 +3,7 @@ import data from "../db.json";
 import {FaHtml5 ,FaCss3Alt,FaReact} from 'react-icons/fa';
 import { TbBrandJavascript} from 'react-icons/tb';
 import { SiRedux , SiCodeproject } from "react-icons/si";
+import { Element } from 'react-scroll';
 
 
 const TechStackCard=({name})=>{
@@ -57,20 +58,20 @@ const ProjectCard = (props) => {
 
 export const Projects = () => {
   return (
-    <Box fontFamily='inherit' id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px'>
-      <Box color='white' textAlign='center' mb={6}>
-        <Heading fontWeight='500'  fontSize={['2xl','3xl','3xl']} >Some of my best projects</Heading>
-        <Icon w="50px" h="50px" mt={3}  as={SiCodeproject} />
+    <Element name="projects">
+      <Box fontFamily='inherit' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px'>
+          <Box color='white' textAlign='center' mb={6}>
+          <Heading fontWeight='500'  fontSize={['2xl','3xl','3xl']} >Some of my best projects</Heading>
+          <Icon w="50px" h="50px" mt={3}  as={SiCodeproject} />
+        </Box>
+        <Box>
+        <Flex wrap='wrap' gap={6} direction={['column','row','row']} justifyContent="space-around">
+          {data.projects.map((project) => {
+            return <ProjectCard key={project.id} {...project} />;
+          })}
+        </Flex>
+        </Box>
       </Box>
-    <Box alignContent='center'>
-      </Box>
-      <Box>
-      <Flex wrap='wrap' gap={6} direction={['column','row','row']} justifyContent="space-around">
-        {data.projects.map((project) => {
-          return <ProjectCard key={project.id} {...project} />;
-        })}
-      </Flex>
-      </Box>
-    </Box>
+    </Element>
   );
 };
