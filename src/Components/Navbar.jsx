@@ -5,7 +5,6 @@ import { scroller } from 'react-scroll';
 
 
 const MenuItem = ({ children, location,toggle }) => {
-  console.log(location,typeof location);
   location=location ? {location} :"home";
   return (
     <Link to={location} 
@@ -64,7 +63,6 @@ export const Navbar = () => {
       fontWeight='400'
       zIndex={1}
       top={0}
-      offsetDistance="80px"
     >
         <Logo />
         <ToggleIcon toggle={Toggle} isOpen={isOpen} />

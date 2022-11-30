@@ -1,7 +1,7 @@
 {
     "projects":[
         {
-            "id":1,
+            "id":14,
             "title":"Geek Buying",
             "name":"geek-buying",
             "tech":["HTML","CSS","JavaScript","React","Redux"],
@@ -12,7 +12,7 @@
             "live":"https://geekbuying-clone.netlify.app"
         },
         {
-            "id":2,
+            "id":15,
             "title":"OLX",
             "name":"olx",
             "tech":["HTML","CSS","JavaScript","React","Redux"],
@@ -23,7 +23,7 @@
             "live":"https://enormous-library-3081-olx.vercel.app/"
         },
         {
-            "id":3,
+            "id":16,
             "title":"Weather App",
             "name":"weather-app",
             "tech":["HTML","CSS","JavaScript"],
@@ -33,7 +33,7 @@
             "img":"weather-app.gif"
         },
         {
-            "id":4,
+            "id":17,
             "title":"Freshly",
             "name":"Freshly",
             "tech":["HTML","CSS","JavaScript","React","Redux"],
@@ -82,32 +82,32 @@
             "alt":"Express"
         },
         {
-            "id":9,
+            "id":8,
             "name":"Git",
             "alt":"Git"
         },
         {
-            "id":10,
+            "id":9,
             "name":"Github",
             "alt":"Github"
         },
         {
-            "id":11,
+            "id":10,
             "name":"Postman",
             "alt":"Postman"
         },
         {
-            "id":12,
+            "id":11,
             "name":"Java",
             "alt":"Java"
         },
         {
-            "id":13,
+            "id":12,
             "name":"Python",
             "alt":"Python"
         },
         {
-            "id":14,
+            "id":13,
             "name":"Redux",
             "alt":"Redux"
         }

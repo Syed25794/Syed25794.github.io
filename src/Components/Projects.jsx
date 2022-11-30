@@ -44,8 +44,8 @@ const ProjectCard = (props) => {
       <Text>{props.description}</Text>
       <Heading size='md' my={2} color='white' fontWeight='400'  fontSize={['md','lg','2xl']}>Tech-Stack</Heading>
         <Flex  gap={2} wrap='wrap' justifyContent="center">
-          {props['tech'].map((elem)=>{
-            return <TechStackCard name={elem} />}
+          {props['tech'].map((elem,index)=>{
+            return <TechStackCard key={index} name={elem} />}
             )}
         </Flex>
       <Flex marginTop={3} justifyContent='center' gap={4} >
@@ -66,8 +66,8 @@ export const Projects = () => {
         </Box>
         <Box>
         <Flex wrap='wrap' gap={6} direction={['column','row','row']} justifyContent="space-around">
-          {data.projects.map((project) => {
-            return <ProjectCard key={project.id} {...project} />;
+          {data.projects.map((project,index) => {
+            return <ProjectCard key={project.title} {...project} />;
           })}
         </Flex>
         </Box>

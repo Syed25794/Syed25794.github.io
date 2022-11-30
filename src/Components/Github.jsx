@@ -27,12 +27,6 @@ const Github = () => {
                     <Image w={['250px','350px','600px','800px']} marginTop='10px' marginBottom='20px' src="https://github-readme-stats.vercel.app/api?username=syed25794&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"  id="github-contributions" href="https://github.com/syed25794/github-readme-stats" alt="syed25794's Github Stats"/>
                 </Link>
             </Box>
-            <Box>
-                <Link target="_blank" rel="noreferrer" id="cicin" href="https://github.com/syed25794" >
-                    <p textAlign='center' fontSize='40px' color='black' >Github Calender</p>
-                    <Image  width="1200px" marginBottom='20px'  id="github-contributions" src="https://ghchart.rshah.org/syed25794" href="https://github.com/syed25794" alt="syed25794's Activity Graph" />
-                </Link>
-            </Box>
         </Box>
     )
 };
