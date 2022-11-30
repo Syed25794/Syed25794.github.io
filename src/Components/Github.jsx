@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Github = () => {
     return (
-        <Box id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='90px' p={['10px','15px','25px']} borderRadius='8px'>
+        <Box id='projects' boxShadow ='rgb(127,127,127) 0px 5px 15px' mx={['15px','25px','50px']} my='150px' p={['10px','15px','25px']} borderRadius='8px'>
             <Box color='white' textAlign='center' mb={6}>
                 <Heading fontSize={['2xl','3xl','3xl']} fontWeight='500' >My GitHub Stats</Heading>
                 <Icon w="50px" h="50px" mt={3}  as={FaGithub} />

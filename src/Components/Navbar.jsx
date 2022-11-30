@@ -1,15 +1,16 @@
 import { CloseIcon, HamburgerIcon, Icon } from "@chakra-ui/icons";
 import { useState } from "react";
-import { Text, Box, Flex, Stack} from "@chakra-ui/react";
-import { Link,scroller } from 'react-scroll';
+import { Text, Box, Flex, Stack,Link} from "@chakra-ui/react";
+import { scroller } from 'react-scroll';
 
 
 const MenuItem = ({ children, location,toggle }) => {
   console.log(location,typeof location);
   location=location ? {location} :"home";
   return (
-    <Link activeClass="active" to={location} 
-     _hover={{ transitionDuration: "700ms", color: "#34d399" }} onClick={()=>toggle(location)}>
+    <Link to={location} 
+    curser="pointer"
+     _hover={{ transitionDuration: "700ms", color: "#34d399"}} onClick={()=>toggle(location)}>
       <Text fontSize="lg">{children}</Text>
   </Link>
   );
@@ -39,8 +40,8 @@ export const Navbar = () => {
       spy:true,
       smooth:true,
       offset:-100,
-      duration:500
-    })
+      duration:500,
+    });
     setIsOpen(!isOpen);
   };
 
