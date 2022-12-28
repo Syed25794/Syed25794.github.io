@@ -9,9 +9,6 @@ const Github = () => {
                 <Heading fontSize={['2xl','3xl','3xl']} fontWeight='500' >My GitHub Stats</Heading>
                 <Icon w="50px" h="50px" mt={3}  as={FaGithub} />
             </Box>
-            <Box margin='auto'>
-                <Image bg='#171923' src='https://activity-graph.herokuapp.com/graph?username=Syed25794&bg_color=#9E9E9E' alt='github activity' / >
-            </Box>
             <Box  w={['250px','350px','600px','800px']} margin='auto' marginTop='30px'>
                 <Text textAlign='center' fontSize='25px' color='white' >Github Trophies</Text>
                 <Image w={['250px','350px','600px','800px']} marginTop='10px' src="https://github-profile-trophy.vercel.app/?username=syed25794" alt="syed25794" />

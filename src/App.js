@@ -8,11 +8,14 @@ import {Skills} from "./Components/Skills";
 import Github from "./Components/Github";
 import Footer from "./Components/Footer";
 import './App.css';
+import { useState } from "react";
 
 
 function App() {
+  const [theme,setTheme]=useState("light");
+
   return (
-    <Box id="home" className="container">
+    <Box id="home" className={theme}>
       <Navbar />
       <About />
       <Skills />

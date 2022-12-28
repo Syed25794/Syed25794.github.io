@@ -1,6 +1,13 @@
-.container{
+.light{
     background: #171923;
     margin: 0;
     top: 0;
     color: #9E9E9E;
+}
+
+.dark{
+    background: #34d399;
+    margin: 0;
+    top: 0;
+    color: #fff6b8;
 }

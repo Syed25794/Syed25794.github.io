@@ -18,7 +18,7 @@ const Footer = () => {
         <Text _hover={{ transitionDuration: "700ms", color: "#34d399"}} marginTop='10px' marginLeft='20px'>syedgulmohammad25794@gmail.com</Text>
       </Box>
       <Box textAlign='center' marginTop='10px'>
-        <Text _hover={{ transitionDuration: "700ms", color: "#34d399"}}>Designed & Built by <span>Sayyad Gul Mohammad</span> © 2022</Text>
+        <Text _hover={{ transitionDuration: "700ms", color: "#34d399"}}>Designed & Built by <span style={{color:"red"}}>Sayyad Gul Mohammad</span> © 2022</Text>
       </Box>
     </Box>
   )
