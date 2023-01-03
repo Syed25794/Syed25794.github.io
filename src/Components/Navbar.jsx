@@ -1,4 +1,6 @@
 import { CloseIcon, HamburgerIcon, Icon } from "@chakra-ui/icons";
+// import { MdDarkMode } from "react-icons/md";
+// import { BsFillSunFill } from "react-icons/bs";
 import { useState } from "react";
 import { Text, Box, Flex, Stack,Link} from "@chakra-ui/react";
 import { scroller } from 'react-scroll';
@@ -30,6 +32,18 @@ const ToggleIcon = ({ toggle, isOpen }) => {
     </Box>
   );
 };
+
+// const ToggleTheme=({ setColorMode, colorMode })=>{
+
+//   return (
+//     <Button>
+//       {
+//         colorMode === "light" ? <Icon as ={MdDarkMode} /> : <Icon as={BsFillSunFill} />
+//       }
+//     </Button>
+//   )
+
+// }
 
 export const Navbar = () => {
   const [isOpen,setIsOpen] = useState(false);
